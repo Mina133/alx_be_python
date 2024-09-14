@@ -1,5 +1,5 @@
-monthely_income = int(input("Enter your monthly income: "))
-monthely_expenses= int(input("Enter your monthly expenses: "))
+monthely_income = float(input("Enter your monthly income: "))
+monthely_expenses= float(input("Enter your monthly expenses: "))
 monthly_savings = monthely_income - monthely_expenses
 project_saving = int(monthly_savings*12+(monthly_savings*12*0.05))
 
