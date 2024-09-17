@@ -16,6 +16,6 @@ elif operation == "/":
         print("Cannot divide by zero.")
     else:
         result = num1 / num2
-        print("The result is", result)
+        print("The result is", int(result))
 else:
     print("Invalid operation.")
