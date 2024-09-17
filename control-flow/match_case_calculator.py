@@ -5,11 +5,11 @@ operation = input("Choose the operation (+, -, *, /):")
 if operation == "+":
     result = num1 + num2
     print("The result is", result)
-elif operation == "-":
-    result = num1 - num2
-    print("The result is", result)
 elif operation == "*":
     result = num1 * num2
+    print("The result is", result)
+elif operation == "-":
+    result = num1 - num2
     print("The result is", result)
 elif operation == "/":
     if num2 == 0:
