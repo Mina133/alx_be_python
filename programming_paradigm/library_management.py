@@ -27,9 +27,9 @@ class Library:
         return False
     
     def list_available_books(self):
-        available_books =[]
+        self._books = []
         for book in self.books:
             if book.is_available:
-                available_books.append(book.title)
-        return available_books
+                self._books.append(book.title)
+        return self._books
  
