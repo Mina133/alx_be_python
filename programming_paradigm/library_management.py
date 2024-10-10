@@ -19,9 +19,9 @@ class Library:
                 return True
         return False
     
-    def return_book(self, title):
+    def return_book(self):
         for book in self.books:
-            if book.title == title and not book.is_available:
+            if book.title ==  book.is_available:
                 book.is_available = True
                 return True
         return False
