@@ -13,10 +13,7 @@ try:
 
   # Create a cursor object
   cursor = conn.cursor()
-
-  # Create the database (ignore if it already exists)
-  sql = "CREATE DATABASE IF NOT EXISTS alx_book_store"
-  cursor.execute(sql)
+  cursor.execute("""CREATE DATABASE IF NOT EXISTS alx_book_store""")
 
   # Commit the changes
   conn.commit()
